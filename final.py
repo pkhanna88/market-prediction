@@ -7,6 +7,7 @@ from sklearn.impute import SimpleImputer
 from sklearn.preprocessing import StandardScaler
 from next_training import SharpeOptimizedEnsemble
 
+
 # Impute missing values with median and scale features
 def preprocess_data(df, imputer=None, scaler=None, fit=False):
     if fit:

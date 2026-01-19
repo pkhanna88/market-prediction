@@ -59,6 +59,5 @@ def predict(test: pl.DataFrame) -> pl.DataFrame:
     result.write_csv('final.csv')
     return result
 
-
 test = pl.read_csv('test.csv')
 predict(test)

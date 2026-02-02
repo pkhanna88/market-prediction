@@ -1,5 +1,5 @@
 # S&P500 Prediction
-The goal of this project was to build a daily fund allocation model that predicts S&P500 excess returns and assigns a leverage value within [0, 2] for each trading day while being bounded by a 120% volatility constraint. It tests whether repeatable predictive edges exist within noisy market data, and it optimizes for a Sharpe Ratio-like metric which penalizes excess volatility or strategies that fail to outperform the market return.
+The goal of this project was to build a daily fund allocation model that predicts S&P500 excess returns and assigns a leverage value within [0, 2] for each trading day while being bounded by a 120% volatility constraint. It tests whether repeatable predictive edges exist within noisy market data, and it optimizes for a Sharpe Ratio-like metric which penalizes excess volatility and strategies that fail to outperform the market return.
 
 <br>
 
@@ -11,4 +11,4 @@ The predictions were: 1.0002702288331613, 0.9999636641662607, 1.0006840971498958
 
 <br>
 
-The eda notebook includes plots which display different aspects of the train set. The sequence to run the .py files is: preprocessing, training, next_training, final.
+The eda notebook includes plots which display different aspects of the train set. The sequence to run the .py files is: preprocessing, training, next_training, final. Thank you.

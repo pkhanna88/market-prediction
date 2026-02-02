@@ -3,7 +3,7 @@ The goal of this project was to build a daily fund allocation model that predict
 
 <br>
 
-A blend of random forest, gradient boosting, ridge regression, and MLP was used to improve the predictive robustness of the project by minimizing the potential for overfitting. The ensemble weights were dynamically computed depending upon the individual model Sharpe Ratio performances. The final allocations involved volatility dampening to maximize the evaluation metric by reducing leverage when predictions were uncertain.
+A blend of random forest, gradient boosting, ridge regression, and MLP was used to improve the predictive robustness of the project by minimizing the potential for overfitting. The ensemble weights were dynamically computed depending upon the individual model Sharpe Ratio performances. The final allocations, where 1 was neutral or no leverage, involved volatility dampening to maximize the evaluation metric by reducing leverage when predictions were uncertain.
 
 <br>
 

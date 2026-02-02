@@ -1,5 +1,5 @@
-# S&P500 Prediction
-The goal of this project was to build a daily fund allocation model that predicts S&P500 excess returns and assigns a leverage value within [0, 2] for each trading day while being bounded by a 120% volatility constraint. It tests whether repeatable predictive edges exist within noisy market data, and it optimizes for a Sharpe Ratio-like metric which penalizes excess volatility and strategies that fail to outperform the market return.
+# S&P 500 Prediction
+The goal of this project was to build a daily fund allocation model that predicts S&P 500 excess returns and assigns a leverage value within [0, 2] for each trading day while being bounded by a 120% volatility constraint. It tests whether repeatable predictive edges exist within noisy market data, and it optimizes for a Sharpe Ratio-like metric which penalizes excess volatility and strategies that fail to outperform the market return.
 
 <br>
 
